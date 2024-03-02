@@ -1,0 +1,27 @@
+.create-todo-button{
+    position: absolute;
+    background-color: white;
+    z-index: 4;
+    border: 2px solid white;
+    color: #04AA6D;
+    font-size: 22px;
+    padding: 5px 12px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 8px;
+    cursor: pointer;
+    font-family: "Anta", sans-serif;
+    left: 10px;
+    top: 10px;
+
+    @media screen and (min-width: 850px) {
+        display: none;
+    }
+
+    &:hover{
+        background-color: #04AA6D;
+        color: white;
+        transition: 0.2s ease-in-out all;
+    }
+}
